@@ -14,6 +14,14 @@ int main(void) {
 
   printf("１から１００の合計は： %d\n",total);
 
+  //First amendment
+  total=0;
+  for(int i=1; i<=100; i++)
+  {
+	total=i+total;
+  }
+  printf("１から１００の合計（for）: %d\n",total);
+
   return 0;
 }
 
